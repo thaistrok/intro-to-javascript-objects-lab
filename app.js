@@ -21,9 +21,9 @@ const game = {
 
 const pokemon = require('./data.js');
 
-// console.dir(pokemon, { maxArrayLength: null })
+console.dir(pokemon, { maxArrayLength: null })
 
-// console.log(game)
+console.log(game)
 
 
 /*
@@ -48,7 +48,7 @@ Solve Exercise 4 here:
 
 game.party.push(pokemon[24])
 
-// console.log(game.party)
+console.log(game.party)
 
 /*
 Exercise 5
@@ -61,7 +61,7 @@ Solve Exercise 5 here:
 
 game.party.push(pokemon[0],pokemon[1],pokemon[2])
 
-// console.log(game.party)
+console.log(game.party)
 
 /*
 Exercise 6
@@ -81,7 +81,7 @@ game.gyms.forEach(gym => {
     }
 });
 
-// console.log(game.gyms);
+console.log(game.gyms);
 
 /*
 Exercise 7
